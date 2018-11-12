@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="en-gb" dir="ltr" class="com_dtregister view-calendar layout-index task-index itemid-93 j39 mm-hover no-touch"><head>
 
 	<base href="https://pmiak.org/index.php/juneau-region/event-calendar">
@@ -594,14 +595,6 @@ ga('send', 'pageview');
 
 <!-- //MAIN NAVIGATION -->
 
-
-  
-  
-
-  
-
-
-
 <div id="t3-mainbody" class="container t3-mainbody">
 	<div class="row">
 
@@ -610,7 +603,7 @@ ga('send', 'pageview');
 						<div id="system-message-container">
 	</div>
 
-						            <script type="text/javascript">
+		<script type="text/javascript">
                 if (typeof DTjQuery != 'undefined') {
                     DTjQuery.extend(// line 108
                             DTjQuery.validator.messages, {
@@ -644,17 +637,21 @@ ga('send', 'pageview');
  <div style="clear:both"> </div>
  <div>
     <div id="calhead" style="padding-left:1px;padding-right:1px;">          
-      <div class="cHead"><div class="ftitle">Events Calendar</div>
+      <div class="cHead">
+      	<div class="ftitle">Events Calendar</div>
         <div id="loadingpannel" class="ptogtitle loadicon" style="display: none;">Loading Data...</div>
         <div id="errorpannel" class="ptogtitle loaderror" style="display: none;">
-          Error loading data. Please try again.        </div>
+          Error loading data. Please try again.       
+        </div>
       </div>          
       <div id="caltoolbar" class="ctoolbar" unselectable="on">
+
         <!-- Left -->
         <div class="ctoolbar-l">
           <div id="showtodaybtn" class="fbutton">
             <div>
-              <span title="DT_CLICK_TODAY " class="showtoday">Today</span>
+              <span title="Today's Date " class="showtoday">Today</span>
+
             </div>
           </div>
           <div id="showreflashbtn" class="fbutton">
@@ -663,10 +660,21 @@ ga('send', 'pageview');
             </div>
           </div>
         </div>
+
+ <style type="text/css">
+
+ 		.fbutton{
+ 			color: black;
+ 			padding: 5px;
+ 		}
+
+</style>
         <!-- Center -->
         <div class="ctoolbar-c">
           <div id="sfprevbtn" title="Prev" class="sfprevbtn">
-            <span class="fprev"></span>
+            <span class="fprev">
+            	
+            </span>
           </div>
           <div class="fshowdatep">
             <div>
@@ -680,24 +688,35 @@ ga('send', 'pageview');
         </div>
         <!-- Right -->
         <div class="ctoolbar-r">
-          <div id="showdaybtn" class="fbutton ">
+          <div id="showdaybtn" class="fbutton">
             <div>
               <span title="Day" class="showdayview">Day</span>
             </div>
           </div>
-          <div id="showweekbtn" class="fbutton ">
+          <div id="showweekbtn" class="fbutton">
             <div>
               <span title="Week" class="showweekview">Week</span>
             </div>
           </div>
-          <div id="showmonthbtn" class="fbutton fcurrent">
-            <div><span title="Month" class="showmonthview">Month</span></div>
+          <div id="showmonthbtn" class="fbutton">
+            <div>
+            	<span title="Month" class="showmonthview">Month</span>
+            </div>
           </div>
         </div>
-        <div class="clear"></div>
+        <div class="clear">
+        	
+        </div>
       </div>
 
           </div>
+<style type="text/css">
+
+ 		.showmonthbtn.fbutton{
+ 			color: black;
+ 			padding: 5px;
+ 		}
+</style>
 
     <div style="padding:1px;">
       <div class="t1 chromeColor">
@@ -705,71 +724,242 @@ ga('send', 'pageview');
       <div class="t2 chromeColor">
           &nbsp;</div>
       <div id="dvCalMain" class="calmain printborder">
-          <div id="gridcontainer" style="overflow-y: visible; height: auto;"><div id="cal-month-cc" class="cc">
-	<div id="cal-month-cc-header"><div class="cc-close" id="cal-month-closebtn"></div>
-		<div id="cal-month-cc-title" class="cc-title"></div></div><div id="cal-month-cc-body" class="cc-body">
-		  <div id="cal-month-cc-content" class="st-contents"><table class="st-grid" cellspacing="0" cellpadding="0">
-			  <tbody></tbody></table></div></div></div>
-		  <div id="mvcontainer" class="mv-container"><table id="mvweek" class="mv-daynames-table" cellspacing="0" cellpadding="0">
-			  <tbody><tr><th class="mv-dayname" title="Sunday">Sunday</th>
-			  <th class="mv-dayname" title="Monday">Monday</th><th class="mv-dayname" title="Tuesday">Tuesday</th>
-				  <th class="mv-dayname" title="Wednesday">Wednesday</th><th class="mv-dayname" title="Thursday">Thursday</th>
-				  <th class="mv-dayname" title="Friday">Friday</th>
-				  <th class="mv-dayname" title="Saturday">Saturday</th></tr></tbody></table></div><div id="mvEventContainer" class="mv-event-container" style="height:auto;"><div id="mvrow_0" style="MIN-HEIGHT:20%; TOP:0%" class="month-row">
-		  <table class="st-bg-table" cellspacing="0" cellpadding="0"><tbody><tr><td abbr="10/28/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="10/29/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-			  <td abbr="10/30/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="10/31/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/1/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-			  <td abbr="11/2/2018" ch="qkadd" axis="00:00" title="" class="st-bg st-bg-today">&nbsp;</td><td abbr="11/3/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td></tr></tbody></table>
-		  <table class="st-grid" cellpadding="0" cellspacing="0"><tbody><tr><td class="st-dtitle st-dtitle-nonmonth" ch="qkadd" abbr="10/28/2018" axis="00:00" title="OCT 28 2018"><span class="monthdayshow">28</span></td>
+          <div id="gridcontainer" style="overflow-y: visible; height: auto;">
+          	<div id="cal-month-cc" class="cc">
+	<div id="cal-month-cc-header">
+		<div class="cc-close" id="cal-month-closebtn"></div>
+		<div id="cal-month-cc-title" class="cc-title"></div>
+	</div>
+	<div id="cal-month-cc-body" class="cc-body">
+		  <div id="cal-month-cc-content" class="st-contents">
+		  	<table class="st-grid" cellspacing="0" cellpadding="0">
+			  <tbody>
+			  	
+			  </tbody>
+			</table>
+		</div>
+	</div>
+</div>
+		  <div id="mvcontainer" class="mv-container">
+		  	<table id="mvweek" class="mv-daynames-table" cellspacing="0" cellpadding="0">
+			  <tbody>
+			  	<tr>
+			  		<th class="mv-dayname" title="Sunday">SUN</th>
+			  <th class="mv-dayname" title="Monday">MON</th>
+			  <th class="mv-dayname" title="Tuesday">TUES</th>
+				  <th class="mv-dayname" title="Wednesday">WED</th>
+				  <th class="mv-dayname" title="Thursday">THURS</th>
+				  <th class="mv-dayname" title="Friday">FRI</th>
+				  <th class="mv-dayname" title="Saturday">SAT</th>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div id="mvEventContainer" class="mv-event-container" style="height:auto;">
+		<div id="mvrow_0" style="MIN-HEIGHT:20%; TOP:0%" class="month-row">
+		  <table class="st-bg-table" cellspacing="0" cellpadding="0">
+		  	<tbody>
+		  	<tr>
+		  		<td abbr="10/28/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+		  		<td abbr="10/29/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="10/30/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="10/31/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="11/1/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;
+			  </td>
+			  <td abbr="11/2/2018" ch="qkadd" axis="00:00" title="" class="st-bg st-bg-today">
+			  &nbsp;
+			</td>
+			  <td abbr="11/3/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;
+			  </td>
+			</tr>
+		</tbody>
+	</table>
+		  <table class="st-grid" cellpadding="0" cellspacing="0"><tbody>
+		  	<tr>
+		  		<td class="st-dtitle st-dtitle-nonmonth" ch="qkadd" abbr="10/28/2018" axis="00:00" title="OCT 28 2018">
+		  		<span class="monthdayshow">28</span>
+		  	</td>
 		  <td class="st-dtitle st-dtitle-nonmonth" ch="qkadd" abbr="10/29/2018" axis="00:00" title="OCT 29 2018">
-			  <span class="monthdayshow">29</span></td><td class="st-dtitle st-dtitle-nonmonth" ch="qkadd" abbr="10/30/2018" axis="00:00" title="OCT 30 2018">
-		  <span class="monthdayshow">30</span></td><td class="st-dtitle st-dtitle-nonmonth" ch="qkadd" abbr="10/31/2018" axis="00:00" title="OCT 31 2018"><span class="monthdayshow">31</span></td>
-			  <td class="st-dtitle" ch="qkadd" abbr="11/1/2018" axis="00:00" title="NOV 1 2018"><span class="monthdayshow">NOV 1</span></td><td class="st-dtitle st-dtitle-today" ch="qkadd" abbr="11/2/2018" axis="00:00" title="NOV 2 2018"><span class="monthdayshow">2</span></td>
+			  <span class="monthdayshow">29</span>
+			</td>
+			<td class="st-dtitle st-dtitle-nonmonth" ch="qkadd" abbr="10/30/2018" axis="00:00" title="OCT 30 2018">
+		  <span class="monthdayshow">30</span>
+		</td>
+		<td class="st-dtitle st-dtitle-nonmonth" ch="qkadd" abbr="10/31/2018" axis="00:00" title="OCT 31 2018">
+			<span class="monthdayshow">31</span>
+		  </td>
+			  <td class="st-dtitle" ch="qkadd" abbr="11/1/2018" axis="00:00" title="NOV 1 2018">
+			  	<span class="monthdayshow">NOV 1</span>
+			  </td><td class="st-dtitle st-dtitle-today" ch="qkadd" abbr="11/2/2018" axis="00:00" title="NOV 2 2018"><span class="monthdayshow">2</span>
+			  </td>
 			  <td class="st-dtitle" ch="qkadd" abbr="11/3/2018" axis="00:00" title="NOV 3 2018">
-			  <span class="monthdayshow">3</span></td></tr></tbody></table></div>
-		  <div id="mvrow_1" style="MIN-HEIGHT:20%; TOP:20%" class="month-row"><table class="st-bg-table" cellspacing="0" cellpadding="0"><tbody><tr><td abbr="11/4/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-			  <td abbr="11/5/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-			  <td abbr="11/6/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-			  <td abbr="11/7/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-			  <td abbr="11/8/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-			  <td abbr="11/9/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/10/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td></tr></tbody></table>
-			  <table class="st-grid" cellpadding="0" cellspacing="0"><tbody><tr>
-			  <td class="st-dtitle" ch="qkadd" abbr="11/4/2018" axis="00:00" title="NOV 4 2018"><span class="monthdayshow">4</span></td>
-			  <td class="st-dtitle" ch="qkadd" abbr="11/5/2018" axis="00:00" title="NOV 5 2018"><span class="monthdayshow">5</span></td>
-			  <td class="st-dtitle" ch="qkadd" abbr="11/6/2018" axis="00:00" title="NOV 6 2018"><span class="monthdayshow">6</span></td>
-			  <td class="st-dtitle" ch="qkadd" abbr="11/7/2018" axis="00:00" title="NOV 7 2018"><span class="monthdayshow">7</span></td>
-			  <td class="st-dtitle" ch="qkadd" abbr="11/8/2018" axis="00:00" title="NOV 8 2018"><span class="monthdayshow">8</span></td>
-			  <td class="st-dtitle" ch="qkadd" abbr="11/9/2018" axis="00:00" title="NOV 9 2018"><span class="monthdayshow">9</span></td>
-			  <td class="st-dtitle" ch="qkadd" abbr="11/10/2018" axis="00:00" title="NOV 10 2018"><span class="monthdayshow">10</span></td></tr></tbody></table></div>
-		  <div id="mvrow_2" style="MIN-HEIGHT:20%; TOP:40%" class="month-row"><table class="st-bg-table" cellspacing="0" cellpadding="0"><tbody><tr>
+			  <span class="monthdayshow">3</span>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+		  <div id="mvrow_1" style="MIN-HEIGHT:20%; TOP:20%" class="month-row">
+		  	<table class="st-bg-table" cellspacing="0" cellpadding="0"><tbody>]
+		  	<tr>
+		  		<td abbr="11/4/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="11/5/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;
+			  </td>
+			  <td abbr="11/6/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;
+			  </td>
+			  <td abbr="11/7/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;
+			  </td>
+			  <td abbr="11/8/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;
+			  </td>
+			  <td abbr="11/9/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;
+			  </td>
+			  <td abbr="11/10/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			</tr>
+		</tbody>
+	</table>
+			  <table class="st-grid" cellpadding="0" cellspacing="0"><tbody>
+			  	<tr>
+			  <td class="st-dtitle" ch="qkadd" abbr="11/4/2018" axis="00:00" title="NOV 4 2018">
+			  	<span class="monthdayshow">4</span>
+			  </td>
+			  <td class="st-dtitle" ch="qkadd" abbr="11/5/2018" axis="00:00" title="NOV 5 2018"><span class="monthdayshow">5</span>
+			  </td>
+			  <td class="st-dtitle" ch="qkadd" abbr="11/6/2018" axis="00:00" title="NOV 6 2018"><span class="monthdayshow">6</span>
+			  </td>
+			  <td class="st-dtitle" ch="qkadd" abbr="11/7/2018" axis="00:00" title="NOV 7 2018"><span class="monthdayshow">7</span>
+			  </td>
+			  <td class="st-dtitle" ch="qkadd" abbr="11/8/2018" axis="00:00" title="NOV 8 2018"><span class="monthdayshow">8</span>
+			  </td>
+			  <td class="st-dtitle" ch="qkadd" abbr="11/9/2018" axis="00:00" title="NOV 9 2018"><span class="monthdayshow">9</span>
+			  </td>
+			  <td class="st-dtitle" ch="qkadd" abbr="11/10/2018" axis="00:00" title="NOV 10 2018"><span class="monthdayshow">10</span>
+			  </td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+		  <div id="mvrow_2" style="MIN-HEIGHT:20%; TOP:40%" class="month-row">
+		  	<table class="st-bg-table" cellspacing="0" cellpadding="0">
+		  		<tbody>
+		  		<tr>
 			  <td abbr="11/11/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-			  <td abbr="11/12/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/13/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/14/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-			  <td abbr="11/15/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/16/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/17/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td></tr></tbody></table>
-			  <table class="st-grid" cellpadding="0" cellspacing="0"><tbody><tr><td class="st-dtitle" ch="qkadd" abbr="11/11/2018" axis="00:00" title="NOV 11 2018"><span class="monthdayshow">11</span></td><td class="st-dtitle" ch="qkadd" abbr="11/12/2018" axis="00:00" title="NOV 12 2018"><span class="monthdayshow">12</span></td>
-				  <td class="st-dtitle" ch="qkadd" abbr="11/13/2018" axis="00:00" title="NOV 13 2018"><span class="monthdayshow">13</span></td><td class="st-dtitle" ch="qkadd" abbr="11/14/2018" axis="00:00" title="NOV 14 2018"><span class="monthdayshow">14</span></td>
-				  <td class="st-dtitle" ch="qkadd" abbr="11/15/2018" axis="00:00" title="NOV 15 2018"><span class="monthdayshow">15</span></td><td class="st-dtitle" ch="qkadd" abbr="11/16/2018" axis="00:00" title="NOV 16 2018"><span class="monthdayshow">16</span></td>
-				  <td class="st-dtitle" ch="qkadd" abbr="11/17/2018" axis="00:00" title="NOV 17 2018"><span class="monthdayshow">17</span></td></tr></tbody></table></div><div id="mvrow_3" style="MIN-HEIGHT:20%; TOP:60%" class="month-row"><table class="st-bg-table" cellspacing="0" cellpadding="0"><tbody><tr>
-		  <td abbr="11/18/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/19/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/20/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/21/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-		  <td abbr="11/22/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/23/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/24/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td></tr></tbody></table><table class="st-grid" cellpadding="0" cellspacing="0"><tbody><tr>
+			  <td abbr="11/12/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="11/13/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="11/14/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="11/15/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="11/16/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="11/17/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			</tr>
+		</tbody>
+	</table>
+			  <table class="st-grid" cellpadding="0" cellspacing="0">
+			  	<tbody>
+			  		<tr>
+			  			<td class="st-dtitle" ch="qkadd" abbr="11/11/2018" axis="00:00" title="NOV 11 2018">
+			  				<span class="monthdayshow">11</span>
+			  			</td>
+			  			<td class="st-dtitle" ch="qkadd" abbr="11/12/2018" axis="00:00" title="NOV 12 2018">
+			  				<span class="monthdayshow">12</span>
+			  			</td>
+				  <td class="st-dtitle" ch="qkadd" abbr="11/13/2018" axis="00:00" title="NOV 13 2018">
+				  	<span class="monthdayshow">13</span>
+				  </td>
+				  <td class="st-dtitle" ch="qkadd" abbr="11/14/2018" axis="00:00" title="NOV 14 2018">
+				  		<span class="monthdayshow">14</span>
+				  	</td>
+				  <td class="st-dtitle" ch="qkadd" abbr="11/15/2018" axis="00:00" title="NOV 15 2018">
+				  	<span class="monthdayshow">15</span>
+				  </td>
+				  <td class="st-dtitle" ch="qkadd" abbr="11/16/2018" axis="00:00" title="NOV 16 2018">
+				  	<span class="monthdayshow">16</span>
+				  	</td>
+				  <td class="st-dtitle" ch="qkadd" abbr="11/17/2018" axis="00:00" title="NOV 17 2018">
+				  	<span class="monthdayshow">17</span>
+				  </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div id="mvrow_3" style="MIN-HEIGHT:20%; TOP:60%" class="month-row">
+		<table class="st-bg-table" cellspacing="0" cellpadding="0">
+			<tbody>
+				<tr>
+		  <td abbr="11/18/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+		  <td abbr="11/19/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+		  <td abbr="11/20/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+		  <td abbr="11/21/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+		  <td abbr="11/22/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+		  <td abbr="11/23/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+		  <td abbr="11/24/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+		  <table class="st-grid" cellpadding="0" cellspacing="0"><tbody>
+		  	<tr>
 		  <td class="st-dtitle" ch="qkadd" abbr="11/18/2018" axis="00:00" title="NOV 18 2018">
-		  <span class="monthdayshow">18</span></td><td class="st-dtitle" ch="qkadd" abbr="11/19/2018" axis="00:00" title="NOV 19 2018">
-		  <span class="monthdayshow">19</span></td><td class="st-dtitle" ch="qkadd" abbr="11/20/2018" axis="00:00" title="NOV 20 2018">
-		  <span class="monthdayshow">20</span></td><td class="st-dtitle" ch="qkadd" abbr="11/21/2018" axis="00:00" title="NOV 21 2018"><span class="monthdayshow">21</span></td>
-		  <td class="st-dtitle" ch="qkadd" abbr="11/22/2018" axis="00:00" title="NOV 22 2018"><span class="monthdayshow">22</span></td>
-		  <td class="st-dtitle" ch="qkadd" abbr="11/23/2018" axis="00:00" title="NOV 23 2018"><span class="monthdayshow">23</span></td>
-		  <td class="st-dtitle" ch="qkadd" abbr="11/24/2018" axis="00:00" title="NOV 24 2018"><span class="monthdayshow">24</span></td></tr></tbody></table></div>
+		  <span class="monthdayshow">18</span>
+		</td>
+		<td class="st-dtitle" ch="qkadd" abbr="11/19/2018" axis="00:00" title="NOV 19 2018">
+		  <span class="monthdayshow">19</span>
+		</td>
+		<td class="st-dtitle" ch="qkadd" abbr="11/20/2018" axis="00:00" title="NOV 20 2018">
+		  <span class="monthdayshow">20</span>
+		</td>
+		<td class="st-dtitle" ch="qkadd" abbr="11/21/2018" axis="00:00" title="NOV 21 2018">
+			<span class="monthdayshow">21</span></td>
+		  <td class="st-dtitle" ch="qkadd" abbr="11/22/2018" axis="00:00" title="NOV 22 2018">
+		  	<span class="monthdayshow">22</span></td>
+		  <td class="st-dtitle" ch="qkadd" abbr="11/23/2018" axis="00:00" title="NOV 23 2018">
+		  	<span class="monthdayshow">23</span></td>
+		  <td class="st-dtitle" ch="qkadd" abbr="11/24/2018" axis="00:00" title="NOV 24 2018">
+		  	<span class="monthdayshow">24</span>
+		  </td>
+		</tr>
+	</tbody>
+</table>
+</div>
 		  <div id="mvrow_4" style="MIN-HEIGHT:20%; TOP:80%" class="month-row">
-		  <table class="st-bg-table" cellspacing="0" cellpadding="0"><tbody><tr><td abbr="11/25/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-			  <td abbr="11/26/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/27/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-			  <td abbr="11/28/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="11/29/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
-			  <td abbr="11/30/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td><td abbr="12/1/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td></tr></tbody></table>
-			  <table class="st-grid" cellpadding="0" cellspacing="0"><tbody><tr><td class="st-dtitle" ch="qkadd" abbr="11/25/2018" axis="00:00" title="NOV 25 2018"><span class="monthdayshow">25</span></td>
-				  <td class="st-dtitle" ch="qkadd" abbr="11/26/2018" axis="00:00" title="NOV 26 2018"><span class="monthdayshow">26</span></td>
-				  <td class="st-dtitle" ch="qkadd" abbr="11/27/2018" axis="00:00" title="NOV 27 2018"><span class="monthdayshow">27</span></td>
-				  <td class="st-dtitle" ch="qkadd" abbr="11/28/2018" axis="00:00" title="NOV 28 2018"><span class="monthdayshow">28</span></td>
-		  <td class="st-dtitle" ch="qkadd" abbr="11/29/2018" axis="00:00" title="NOV 29 2018"><span class="monthdayshow">29</span></td>
+		  <table class="st-bg-table" cellspacing="0" cellpadding="0"><tbody>
+		  	<tr>
+		  	<td abbr="11/25/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;
+		  	</td>
+			  <td abbr="11/26/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="11/27/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="11/28/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="11/29/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="11/30/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;</td>
+			  <td abbr="12/1/2018" ch="qkadd" axis="00:00" title="" class="st-bg">&nbsp;
+			  </td>
+			</tr>
+		</tbody>
+	</table>
+			  <table class="st-grid" cellpadding="0" cellspacing="0"><tbody>
+			  	<tr><td class="st-dtitle" ch="qkadd" abbr="11/25/2018" axis="00:00" title="NOV 25 2018">
+			  		<span class="monthdayshow">25</span></td>
+				  <td class="st-dtitle" ch="qkadd" abbr="11/26/2018" axis="00:00" title="NOV 26 2018">
+				  	<span class="monthdayshow">26</span>
+				  </td>
+				  <td class="st-dtitle" ch="qkadd" abbr="11/27/2018" axis="00:00" title="NOV 27 2018">
+				  	<span class="monthdayshow">27</span>
+				  </td>
+				  <td class="st-dtitle" ch="qkadd" abbr="11/28/2018" axis="00:00" title="NOV 28 2018">
+				  	<span class="monthdayshow">28</span>
+				  </td>
+		  <td class="st-dtitle" ch="qkadd" abbr="11/29/2018" axis="00:00" title="NOV 29 2018">
+		  	<span class="monthdayshow">29</span>
+		  </td>
 		  <td class="st-dtitle" ch="qkadd" abbr="11/30/2018" axis="00:00" title="NOV 30 2018">
-		  <span class="monthdayshow">30</span></td><td class="st-dtitle st-dtitle-nonmonth" ch="qkadd" abbr="12/1/2018" axis="00:00" title="DEC 1 2018">
-		  <span class="monthdayshow">DEC 1</span></td></tr></tbody></table></div></div></div>
+		  <span class="monthdayshow">30</span>
+		</td>
+		  <td class="st-dtitle st-dtitle-nonmonth" ch="qkadd" abbr="12/1/2018" axis="00:00" title="DEC 1 2018">
+		  <span class="monthdayshow">DEC 1</span>
+		</td>
+	</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
       </div>
       <div class="t2 chromeColor">
           &nbsp;</div>
@@ -783,6 +973,7 @@ ga('send', 'pageview');
 </div>
 
 <script type="text/javascript">
+
 
  DTjQuery(document).ready(function() {     
 
